@@ -1,0 +1,340 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="5421" height="390" font-family="Consolas, Menlo, monospace">
+<rect x="0" y="0" width="5421" height="390" fill="#0d0d0d"/>
+<path d="M287.5,120 C287.5,105.0 214.0,105.0 214.0,90" stroke="#6fa8ff" stroke-width="1.3" fill="none" opacity="0.8" marker-end="url(#arrow)"/>
+<path d="M405.5,120 C405.5,105.0 2043.5,105.0 2043.5,90" stroke="#6fa8ff" stroke-width="1.3" fill="none" opacity="0.8" marker-end="url(#arrow)"/>
+<path d="M289.5,200 C289.5,185.0 200.0,185.0 200.0,170" stroke="#6fa8ff" stroke-width="1.3" fill="none" opacity="0.8" marker-end="url(#arrow)"/>
+<path d="M381.0,200 C381.0,145.0 1058.0,145.0 1058.0,90" stroke="#6fa8ff" stroke-width="1.3" fill="none" opacity="0.8" marker-end="url(#arrow)"/>
+<path d="M1156.5,90 C1156.5,105.0 1061.0,105.0 1061.0,120" stroke="#6fa8ff" stroke-width="1.3" fill="none" opacity="0.8" marker-end="url(#arrow)"/>
+<path d="M1255.0,90 C1255.0,145.0 1047.0,145.0 1047.0,200" stroke="#6fa8ff" stroke-width="1.3" fill="none" opacity="0.8" marker-end="url(#arrow)"/>
+<path d="M1185.5,170 C1185.5,192 1061.0,192 1061.0,120" stroke="#6fa8ff" stroke-width="1.3" fill="none" opacity="0.8" marker-end="url(#arrow)"/>
+<path d="M1134.5,250 C1134.5,272 1047.0,272 1047.0,200" stroke="#6fa8ff" stroke-width="1.3" fill="none" opacity="0.8" marker-end="url(#arrow)"/>
+<path d="M4753.5,120 C4753.5,105.0 4599.0,105.0 4599.0,90" stroke="#6fa8ff" stroke-width="1.3" fill="none" opacity="0.8" marker-end="url(#arrow)"/>
+<path d="M4865.0,120 C4865.0,105.0 1058.0,105.0 1058.0,90" stroke="#6fa8ff" stroke-width="1.3" fill="none" opacity="0.8" marker-end="url(#arrow)"/>
+<path d="M4672.5,200 C4672.5,145.0 4599.0,145.0 4599.0,90" stroke="#6fa8ff" stroke-width="1.3" fill="none" opacity="0.8" marker-end="url(#arrow)"/>
+<path d="M4674.5,280 C4674.5,265.0 4585.0,265.0 4585.0,250" stroke="#6fa8ff" stroke-width="1.3" fill="none" opacity="0.8" marker-end="url(#arrow)"/>
+<path d="M4766.0,280 C4766.0,185.0 1058.0,185.0 1058.0,90" stroke="#6fa8ff" stroke-width="1.3" fill="none" opacity="0.8" marker-end="url(#arrow)"/>
+<path d="M2145.0,120 C2145.0,105.0 1058.0,105.0 1058.0,90" stroke="#6fa8ff" stroke-width="1.3" fill="none" opacity="0.8" marker-end="url(#arrow)"/>
+<path d="M2259.5,120 C2259.5,105.0 2043.5,105.0 2043.5,90" stroke="#6fa8ff" stroke-width="1.3" fill="none" opacity="0.8" marker-end="url(#arrow)"/>
+<path d="M2144.5,280 C2144.5,225.0 2043.5,225.0 2043.5,170" stroke="#6fa8ff" stroke-width="1.3" fill="none" opacity="0.8" marker-end="url(#arrow)"/>
+<path d="M2255.5,280 C2255.5,265.0 2033.5,265.0 2033.5,250" stroke="#6fa8ff" stroke-width="1.3" fill="none" opacity="0.8" marker-end="url(#arrow)"/>
+<path d="M3572.0,90 C3572.0,65.0 1058.0,65.0 1058.0,40" stroke="#6fa8ff" stroke-width="1.3" fill="none" opacity="0.8" marker-end="url(#arrow)"/>
+<path d="M3703.0,90 C3703.0,65.0 2043.5,65.0 2043.5,40" stroke="#6fa8ff" stroke-width="1.3" fill="none" opacity="0.8" marker-end="url(#arrow)"/>
+<path d="M3850.5,90 C3850.5,65.0 2043.5,65.0 2043.5,40" stroke="#6fa8ff" stroke-width="1.3" fill="none" opacity="0.8" marker-end="url(#arrow)"/>
+<path d="M3559.0,120 C3559.0,105.0 1058.0,105.0 1058.0,90" stroke="#6fa8ff" stroke-width="1.3" fill="none" opacity="0.8" marker-end="url(#arrow)"/>
+<path d="M3673.5,120 C3673.5,105.0 2043.5,105.0 2043.5,90" stroke="#6fa8ff" stroke-width="1.3" fill="none" opacity="0.8" marker-end="url(#arrow)"/>
+<path d="M3788.0,170 C3788.0,185.0 211.0,185.0 211.0,200" stroke="#6fa8ff" stroke-width="1.3" fill="none" opacity="0.8" marker-end="url(#arrow)"/>
+<path d="M3572.0,200 C3572.0,145.0 1058.0,145.0 1058.0,90" stroke="#6fa8ff" stroke-width="1.3" fill="none" opacity="0.8" marker-end="url(#arrow)"/>
+<path d="M3686.5,200 C3686.5,145.0 2043.5,145.0 2043.5,90" stroke="#6fa8ff" stroke-width="1.3" fill="none" opacity="0.8" marker-end="url(#arrow)"/>
+<path d="M3552.5,280 C3552.5,225.0 2043.5,225.0 2043.5,170" stroke="#6fa8ff" stroke-width="1.3" fill="none" opacity="0.8" marker-end="url(#arrow)"/>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#6fa8ff"/></marker></defs>
+<text x="40" y="58" font-size="15" font-weight="bold" fill="#ffffff">CUSTOMER</text>
+<rect x="170" y="40" width="88" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="214.0" y="69.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="bold">Customer_ID</text>
+<line x1="176" y1="74.0" x2="252" y2="74.0" stroke="#f0f0f0" stroke-width="1.2"/>
+<rect x="258" y="40" width="101" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="308.5" y="69.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Customer_Name</text>
+<rect x="359" y="40" width="60" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="389.0" y="69.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Email</text>
+<rect x="419" y="40" width="62" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="450.0" y="69.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Address</text>
+<rect x="481" y="40" width="101" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="531.5" y="69.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Customer_Type</text>
+<rect x="582" y="40" width="95" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="629.5" y="69.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Phone_Number</text>
+<rect x="677" y="40" width="75" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="714.5" y="69.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Is_Active</text>
+<text x="40" y="138" font-size="15" font-weight="bold" fill="#ffffff">SALES_ORDER</text>
+<rect x="170" y="120" width="60" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="200.0" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="bold">SO_ID</text>
+<line x1="176" y1="154.0" x2="224" y2="154.0" stroke="#f0f0f0" stroke-width="1.2"/>
+<rect x="230" y="120" width="115" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="287.5" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Customer_ID(FK)</text>
+<line x1="236" y1="166" x2="339" y2="166" stroke="#cfcfcf" stroke-width="1.2" stroke-dasharray="3,2"/>
+<rect x="345" y="120" width="121" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="405.5" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Warehouse_ID(FK)</text>
+<line x1="351" y1="166" x2="460" y2="166" stroke="#cfcfcf" stroke-width="1.2" stroke-dasharray="3,2"/>
+<rect x="466" y="120" width="82" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="507.0" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Order_Date</text>
+<rect x="548" y="120" width="101" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="598.5" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Required_Date</text>
+<rect x="649" y="120" width="60" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="679.0" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Status</text>
+<rect x="709" y="120" width="95" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="756.5" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Total_Amount</text>
+<text x="40" y="218" font-size="15" font-weight="bold" fill="#ffffff">SO_ITEM</text>
+<rect x="170" y="200" width="82" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="211.0" y="229.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="bold">SO_Item_ID</text>
+<line x1="176" y1="234.0" x2="246" y2="234.0" stroke="#f0f0f0" stroke-width="1.2"/>
+<rect x="252" y="200" width="75" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="289.5" y="229.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">SO_ID(FK)</text>
+<line x1="258" y1="246" x2="321" y2="246" stroke="#cfcfcf" stroke-width="1.2" stroke-dasharray="3,2"/>
+<rect x="327" y="200" width="108" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="381.0" y="229.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Product_ID(FK)</text>
+<line x1="333" y1="246" x2="429" y2="246" stroke="#cfcfcf" stroke-width="1.2" stroke-dasharray="3,2"/>
+<rect x="435" y="200" width="68" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="469.0" y="229.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Quantity</text>
+<rect x="503" y="200" width="82" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="544.0" y="229.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Unit_Price</text>
+<rect x="585" y="200" width="68" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="619.0" y="229.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Discount</text>
+<rect x="653" y="200" width="82" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="694.0" y="229.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Tax_Amount</text>
+<rect x="735" y="200" width="82" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="776.0" y="229.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Line_Total</text>
+<text x="887" y="58" font-size="15" font-weight="bold" fill="#ffffff">PRODUCT</text>
+<rect x="1017" y="40" width="82" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="1058.0" y="69.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="bold">Product_ID</text>
+<line x1="1023" y1="74.0" x2="1093" y2="74.0" stroke="#f0f0f0" stroke-width="1.2"/>
+<rect x="1099" y="40" width="115" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="1156.5" y="69.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Category_ID(FK)</text>
+<line x1="1105" y1="86" x2="1208" y2="86" stroke="#cfcfcf" stroke-width="1.2" stroke-dasharray="3,2"/>
+<rect x="1214" y="40" width="82" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="1255.0" y="69.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">UOM_ID(FK)</text>
+<line x1="1220" y1="86" x2="1290" y2="86" stroke="#cfcfcf" stroke-width="1.2" stroke-dasharray="3,2"/>
+<rect x="1296" y="40" width="60" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="1326.0" y="69.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">SKU</text>
+<rect x="1356" y="40" width="95" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="1403.5" y="69.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Product_Name</text>
+<rect x="1451" y="40" width="60" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="1481.0" y="69.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Brand</text>
+<rect x="1511" y="40" width="62" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="1542.0" y="69.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Barcode</text>
+<rect x="1573" y="40" width="95" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="1620.5" y="69.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Created_Date</text>
+<rect x="1668" y="40" width="128" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="1732.0" y="69.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Discontinued_Flag</text>
+<text x="887" y="138" font-size="15" font-weight="bold" fill="#ffffff">CATEGORY</text>
+<rect x="1017" y="120" width="88" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="1061.0" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="bold">Category_ID</text>
+<line x1="1023" y1="154.0" x2="1099" y2="154.0" stroke="#f0f0f0" stroke-width="1.2"/>
+<rect x="1105" y="120" width="161" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="1185.5" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Parent_Category_ID(FK)</text>
+<line x1="1111" y1="166" x2="1260" y2="166" stroke="#cfcfcf" stroke-width="1.2" stroke-dasharray="3,2"/>
+<rect x="1266" y="120" width="101" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="1316.5" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Category_Name</text>
+<rect x="1367" y="120" width="88" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="1411.0" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Description</text>
+<rect x="1455" y="120" width="75" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="1492.5" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Is_Active</text>
+<text x="887" y="218" font-size="15" font-weight="bold" fill="#ffffff">UOM</text>
+<rect x="1017" y="200" width="60" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="1047.0" y="229.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="bold">UOM_ID</text>
+<line x1="1023" y1="234.0" x2="1071" y2="234.0" stroke="#f0f0f0" stroke-width="1.2"/>
+<rect x="1077" y="200" width="115" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="1134.5" y="229.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Base_UOM_ID(FK)</text>
+<line x1="1083" y1="246" x2="1186" y2="246" stroke="#cfcfcf" stroke-width="1.2" stroke-dasharray="3,2"/>
+<rect x="1192" y="200" width="68" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="1226.0" y="229.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">UOM_Name</text>
+<rect x="1260" y="200" width="68" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="1294.0" y="229.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">UOM_Type</text>
+<text x="1866" y="58" font-size="15" font-weight="bold" fill="#ffffff">WAREHOUSE</text>
+<rect x="1996" y="40" width="95" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="2043.5" y="69.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="bold">Warehouse_ID</text>
+<line x1="2002" y1="74.0" x2="2085" y2="74.0" stroke="#f0f0f0" stroke-width="1.2"/>
+<rect x="2091" y="40" width="108" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="2145.0" y="69.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Warehouse_Name</text>
+<rect x="2199" y="40" width="68" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="2233.0" y="69.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Capacity</text>
+<rect x="2267" y="40" width="75" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="2304.5" y="69.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Is_Active</text>
+<text x="1866" y="138" font-size="15" font-weight="bold" fill="#ffffff">INVENTORY</text>
+<rect x="1996" y="120" width="95" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="2043.5" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="bold">Inventory_ID</text>
+<line x1="2002" y1="154.0" x2="2085" y2="154.0" stroke="#f0f0f0" stroke-width="1.2"/>
+<rect x="2091" y="120" width="108" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="2145.0" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Product_ID(FK)</text>
+<line x1="2097" y1="166" x2="2193" y2="166" stroke="#cfcfcf" stroke-width="1.2" stroke-dasharray="3,2"/>
+<rect x="2199" y="120" width="121" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="2259.5" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Warehouse_ID(FK)</text>
+<line x1="2205" y1="166" x2="2314" y2="166" stroke="#cfcfcf" stroke-width="1.2" stroke-dasharray="3,2"/>
+<rect x="2320" y="120" width="121" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="2380.5" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Quantity_On_Hand</text>
+<rect x="2441" y="120" width="128" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="2505.0" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Reserved_Quantity</text>
+<rect x="2569" y="120" width="134" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="2636.0" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Available_Quantity</text>
+<rect x="2703" y="120" width="115" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="2760.5" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Min_Stock_Level</text>
+<rect x="2818" y="120" width="115" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="2875.5" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Max_Stock_Level</text>
+<rect x="2933" y="120" width="101" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="2983.5" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Reorder_Level</text>
+<rect x="3034" y="120" width="101" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="3084.5" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Location_Slot</text>
+<rect x="3135" y="120" width="95" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="3182.5" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Last_Updated</text>
+<text x="1866" y="218" font-size="15" font-weight="bold" fill="#ffffff">ADJUSTMENT_REASON</text>
+<rect x="1996" y="200" width="75" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="2033.5" y="229.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="bold">Reason_ID</text>
+<line x1="2002" y1="234.0" x2="2065" y2="234.0" stroke="#f0f0f0" stroke-width="1.2"/>
+<rect x="2071" y="200" width="88" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="2115.0" y="229.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Reason_Type</text>
+<rect x="2159" y="200" width="88" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="2203.0" y="229.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Description</text>
+<text x="1866" y="298" font-size="15" font-weight="bold" fill="#ffffff">STOCK_MOVEMENT</text>
+<rect x="1996" y="280" width="88" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="2040.0" y="309.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="bold">Movement_ID</text>
+<line x1="2002" y1="314.0" x2="2078" y2="314.0" stroke="#f0f0f0" stroke-width="1.2"/>
+<rect x="2084" y="280" width="121" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="2144.5" y="309.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Inventory_ID(FK)</text>
+<line x1="2090" y1="326" x2="2199" y2="326" stroke="#cfcfcf" stroke-width="1.2" stroke-dasharray="3,2"/>
+<rect x="2205" y="280" width="101" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="2255.5" y="309.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Reason_ID(FK)</text>
+<line x1="2211" y1="326" x2="2300" y2="326" stroke="#cfcfcf" stroke-width="1.2" stroke-dasharray="3,2"/>
+<rect x="2306" y="280" width="101" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="2356.5" y="309.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Movement_Date</text>
+<rect x="2407" y="280" width="101" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="2457.5" y="309.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Movement_Type</text>
+<rect x="2508" y="280" width="68" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="2542.0" y="309.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Quantity</text>
+<rect x="2576" y="280" width="108" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="2630.0" y="309.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Reference_Type</text>
+<rect x="2684" y="280" width="95" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="2731.5" y="309.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Reference_ID</text>
+<rect x="2779" y="280" width="82" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="2820.0" y="309.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Created_By</text>
+<text x="3300" y="58" font-size="15" font-weight="bold" fill="#ffffff">STOCK_TRANSFER</text>
+<rect x="3430" y="40" width="88" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="3474.0" y="69.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="bold">Transfer_ID</text>
+<line x1="3436" y1="74.0" x2="3512" y2="74.0" stroke="#f0f0f0" stroke-width="1.2"/>
+<rect x="3518" y="40" width="108" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="3572.0" y="69.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Product_ID(FK)</text>
+<line x1="3524" y1="86" x2="3620" y2="86" stroke="#cfcfcf" stroke-width="1.2" stroke-dasharray="3,2"/>
+<rect x="3626" y="40" width="154" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="3703.0" y="69.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">From_Warehouse_ID(FK)</text>
+<line x1="3632" y1="86" x2="3774" y2="86" stroke="#cfcfcf" stroke-width="1.2" stroke-dasharray="3,2"/>
+<rect x="3780" y="40" width="141" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="3850.5" y="69.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">To_Warehouse_ID(FK)</text>
+<line x1="3786" y1="86" x2="3915" y2="86" stroke="#cfcfcf" stroke-width="1.2" stroke-dasharray="3,2"/>
+<rect x="3921" y="40" width="68" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="3955.0" y="69.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Quantity</text>
+<rect x="3989" y="40" width="101" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="4039.5" y="69.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Transfer_Date</text>
+<text x="3300" y="138" font-size="15" font-weight="bold" fill="#ffffff">DEMAND_HISTORY</text>
+<rect x="3430" y="120" width="75" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="3467.5" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="bold">Demand_ID</text>
+<line x1="3436" y1="154.0" x2="3499" y2="154.0" stroke="#f0f0f0" stroke-width="1.2"/>
+<rect x="3505" y="120" width="108" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="3559.0" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Product_ID(FK)</text>
+<line x1="3511" y1="166" x2="3607" y2="166" stroke="#cfcfcf" stroke-width="1.2" stroke-dasharray="3,2"/>
+<rect x="3613" y="120" width="121" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="3673.5" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Warehouse_ID(FK)</text>
+<line x1="3619" y1="166" x2="3728" y2="166" stroke="#cfcfcf" stroke-width="1.2" stroke-dasharray="3,2"/>
+<rect x="3734" y="120" width="108" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="3788.0" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">SO_Item_ID(FK)</text>
+<line x1="3740" y1="166" x2="3836" y2="166" stroke="#cfcfcf" stroke-width="1.2" stroke-dasharray="3,2"/>
+<rect x="3842" y="120" width="88" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="3886.0" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Demand_Date</text>
+<rect x="3930" y="120" width="128" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="3994.0" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Quantity_Demanded</text>
+<rect x="4058" y="120" width="101" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="4108.5" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Quantity_Sold</text>
+<rect x="4159" y="120" width="95" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="4206.5" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Demand_Trend</text>
+<rect x="4254" y="120" width="101" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="4304.5" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Days_of_Stock</text>
+<text x="3300" y="218" font-size="15" font-weight="bold" fill="#ffffff">DEMAND_FORECAST</text>
+<rect x="3430" y="200" width="88" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="3474.0" y="229.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="bold">Forecast_ID</text>
+<line x1="3436" y1="234.0" x2="3512" y2="234.0" stroke="#f0f0f0" stroke-width="1.2"/>
+<rect x="3518" y="200" width="108" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="3572.0" y="229.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Product_ID(FK)</text>
+<line x1="3524" y1="246" x2="3620" y2="246" stroke="#cfcfcf" stroke-width="1.2" stroke-dasharray="3,2"/>
+<rect x="3626" y="200" width="121" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="3686.5" y="229.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Warehouse_ID(FK)</text>
+<line x1="3632" y1="246" x2="3741" y2="246" stroke="#cfcfcf" stroke-width="1.2" stroke-dasharray="3,2"/>
+<rect x="3747" y="200" width="101" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="3797.5" y="229.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Forecast_Date</text>
+<rect x="3848" y="200" width="141" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="3918.5" y="229.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Forecasted_Quantity</text>
+<text x="3300" y="298" font-size="15" font-weight="bold" fill="#ffffff">INVENTORY_RISK</text>
+<rect x="3430" y="280" width="62" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="3461.0" y="309.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="bold">Risk_ID</text>
+<line x1="3436" y1="314.0" x2="3486" y2="314.0" stroke="#f0f0f0" stroke-width="1.2"/>
+<rect x="3492" y="280" width="121" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="3552.5" y="309.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Inventory_ID(FK)</text>
+<line x1="3498" y1="326" x2="3607" y2="326" stroke="#cfcfcf" stroke-width="1.2" stroke-dasharray="3,2"/>
+<rect x="3613" y="280" width="101" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="3663.5" y="309.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Detected_Date</text>
+<rect x="3714" y="280" width="75" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="3751.5" y="309.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Risk_Type</text>
+<rect x="3789" y="280" width="82" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="3830.0" y="309.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Risk_Level</text>
+<rect x="3871" y="280" width="82" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="3912.0" y="309.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Risk_Score</text>
+<rect x="3953" y="280" width="115" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="4010.5" y="309.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Threshold_Value</text>
+<rect x="4068" y="280" width="60" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="4098.0" y="309.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Status</text>
+<rect x="4128" y="280" width="134" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="4195.0" y="309.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Recommended_Action</text>
+<text x="4425" y="58" font-size="15" font-weight="bold" fill="#ffffff">SUPPLIER</text>
+<rect x="4555" y="40" width="88" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="4599.0" y="69.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="bold">Supplier_ID</text>
+<line x1="4561" y1="74.0" x2="4637" y2="74.0" stroke="#f0f0f0" stroke-width="1.2"/>
+<rect x="4643" y="40" width="101" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="4693.5" y="69.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Supplier_Name</text>
+<rect x="4744" y="40" width="108" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="4798.0" y="69.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Contact_Person</text>
+<rect x="4852" y="40" width="60" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="4882.0" y="69.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Email</text>
+<rect x="4912" y="40" width="95" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="4959.5" y="69.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Phone_Number</text>
+<rect x="5007" y="40" width="62" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="5038.0" y="69.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Address</text>
+<rect x="5069" y="40" width="60" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="5099.0" y="69.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Rating</text>
+<rect x="5129" y="40" width="75" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="5166.5" y="69.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Is_Active</text>
+<text x="4425" y="138" font-size="15" font-weight="bold" fill="#ffffff">SUPPLIER_PRODUCT</text>
+<rect x="4555" y="120" width="141" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="4625.5" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="bold">Supplier_Product_ID</text>
+<line x1="4561" y1="154.0" x2="4690" y2="154.0" stroke="#f0f0f0" stroke-width="1.2"/>
+<rect x="4696" y="120" width="115" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="4753.5" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Supplier_ID(FK)</text>
+<line x1="4702" y1="166" x2="4805" y2="166" stroke="#cfcfcf" stroke-width="1.2" stroke-dasharray="3,2"/>
+<rect x="4811" y="120" width="108" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="4865.0" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Product_ID(FK)</text>
+<line x1="4817" y1="166" x2="4913" y2="166" stroke="#cfcfcf" stroke-width="1.2" stroke-dasharray="3,2"/>
+<rect x="4919" y="120" width="154" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="4996.0" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Supplier_Product_Code</text>
+<rect x="5073" y="120" width="75" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="5110.5" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Unit_Cost</text>
+<rect x="5148" y="120" width="108" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="5202.0" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Lead_Time_Days</text>
+<rect x="5256" y="120" width="95" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="5303.5" y="149.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Is_Preferred</text>
+<text x="4425" y="218" font-size="15" font-weight="bold" fill="#ffffff">PURCHASE_ORDER</text>
+<rect x="4555" y="200" width="60" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="4585.0" y="229.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="bold">PO_ID</text>
+<line x1="4561" y1="234.0" x2="4609" y2="234.0" stroke="#f0f0f0" stroke-width="1.2"/>
+<rect x="4615" y="200" width="115" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="4672.5" y="229.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Supplier_ID(FK)</text>
+<line x1="4621" y1="246" x2="4724" y2="246" stroke="#cfcfcf" stroke-width="1.2" stroke-dasharray="3,2"/>
+<rect x="4730" y="200" width="62" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="4761.0" y="229.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">PO_Date</text>
+<rect x="4792" y="200" width="101" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="4842.5" y="229.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Expected_Date</text>
+<rect x="4893" y="200" width="60" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="4923.0" y="229.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Status</text>
+<rect x="4953" y="200" width="95" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="5000.5" y="229.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Total_Amount</text>
+<text x="4425" y="298" font-size="15" font-weight="bold" fill="#ffffff">PO_ITEM</text>
+<rect x="4555" y="280" width="82" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="4596.0" y="309.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="bold">PO_Item_ID</text>
+<line x1="4561" y1="314.0" x2="4631" y2="314.0" stroke="#f0f0f0" stroke-width="1.2"/>
+<rect x="4637" y="280" width="75" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="4674.5" y="309.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">PO_ID(FK)</text>
+<line x1="4643" y1="326" x2="4706" y2="326" stroke="#cfcfcf" stroke-width="1.2" stroke-dasharray="3,2"/>
+<rect x="4712" y="280" width="108" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="4766.0" y="309.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Product_ID(FK)</text>
+<line x1="4718" y1="326" x2="4814" y2="326" stroke="#cfcfcf" stroke-width="1.2" stroke-dasharray="3,2"/>
+<rect x="4820" y="280" width="68" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="4854.0" y="309.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Quantity</text>
+<rect x="4888" y="280" width="75" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="4925.5" y="309.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Unit_Cost</text>
+<rect x="4963" y="280" width="82" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="5004.0" y="309.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Tax_Amount</text>
+<rect x="5045" y="280" width="82" height="50" fill="#161616" stroke="#cfcfcf" stroke-width="1"/>
+<text x="5086.0" y="309.0" font-size="11" fill="#f0f0f0" text-anchor="middle" font-weight="normal">Line_Total</text>
+</svg>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Inventory & Demand Management - Relational Schema</title>
+<style>
+  body{background:#111;color:#eee;font-family:Arial,Helvetica,sans-serif;margin:0;padding:24px;}
+  h2{color:#fff;font-weight:600;}
+  #wrap{position:relative;}
+  .table{position:absolute;border:1px solid #ccc;background:#111;}
+  .tname{font-weight:bold;font-size:15px;color:#fff;padding:2px 8px;white-space:nowrap;}
+  .row{display:flex;border-top:1px solid #ccc;}
+  .cell{border-right:1px solid #ccc;padding:3px 8px;font-size:11px;white-space:nowrap;color:#eee;}
+  .cell:last-child{border-right:none;}
+  .pk{text-decoration:underline;font-weight:bold;}
+  .fk{border-bottom:2px dashed #ddd;}
+  svg{position:absolute;top:0;left:0;pointer-events:none;}
+  .note{max-width:1500px;font-size:12px;color:#bbb;margin-top:16px;line-height:1.5;}
+  .note b{color:#fff;}
+</style>
+</head>
+<body>
+<h2>Inventory, Sales & Demand Risk - Relational Schema Model</h2>
+<div id="wrap"></div>
+<div class="note" id="notes"></div>
+
+<script>
+// ---- table definitions: [x,y,name,[ [colname,type] ]]  type: 'pk','fk','' ----
+const tables = {
+  CUSTOMER:        {x:40,  y:20,  cols:[["Customer_ID","pk"],["Customer_Name",""],["Email",""],["Address",""],["Customer_Type",""],["Phone_Number",""],["Is_Active",""]]},
+  SALES_ORDER:      {x:40,  y:110, cols:[["SO_ID","pk"],["Customer_ID","fk"],["Warehouse_ID","fk"],["Order_Date",""],["Required_Date",""],["Status",""],["Total_Amount",""]]},
+  SO_ITEM:          {x:40,  y:200, cols:[["SO_Item_ID","pk"],["SO_ID","fk"],["Product_ID","fk"],["Quantity",""],["Unit_Price",""],["Discount",""],["Tax_Amount",""],["Line_Total",""]]},
+
+  PRODUCT:          {x:520, y:20,  cols:[["Product_ID","pk"],["Category_ID","fk"],["UOM_ID","fk"],["SKU",""],["Product_Name",""],["Brand",""],["Barcode",""],["Created_Date",""],["Discontinued_Flag",""]]},
+  CATEGORY:         {x:520, y:120, cols:[["Category_ID","pk"],["Parent_Category_ID","fk"],["Category_Name",""],["Description",""],["Is_Active",""]]},
+  UOM:              {x:520, y:200, cols:[["UOM_ID","pk"],["Base_UOM_ID","fk"],["UOM_Name",""],["UOM_Type",""]]},
+
+  SUPPLIER:         {x:1080,y:20,  cols:[["Supplier_ID","pk"],["Supplier_Name",""],["Contact_Person",""],["Email",""],["Phone_Number",""],["Address",""],["Rating",""],["Is_Active",""]]},
+  SUPPLIER_PRODUCT: {x:1080,y:110, cols:[["Supplier_Product_ID","pk"],["Supplier_ID","fk"],["Product_ID","fk"],["Supplier_Product_Code",""],["Unit_Cost",""],["Lead_Time_Days",""],["Is_Preferred",""]]},
+  PURCHASE_ORDER:   {x:1080,y:200, cols:[["PO_ID","pk"],["Supplier_ID","fk"],["PO_Date",""],["Expected_Date",""],["Status",""],["Total_Amount",""]]},
+  PO_ITEM:          {x:1080,y:290, cols:[["PO_Item_ID","pk"],["PO_ID","fk"],["Product_ID","fk"],["Quantity",""],["Unit_Cost",""],["Tax_Amount",""],["Line_Total",""]]},
+
+  WAREHOUSE:        {x:40,  y:340, cols:[["Warehouse_ID","pk"],["Warehouse_Name",""],["Capacity",""],["Is_Active",""]]},
+  INVENTORY:        {x:40,  y:430, cols:[["Inventory_ID","pk"],["Product_ID","fk"],["Warehouse_ID","fk"],["Quantity_On_Hand",""],["Reserved_Quantity",""],["Available_Quantity",""],["Min_Stock_Level",""],["Max_Stock_Level",""],["Reorder_Level",""],["Location_Slot",""],["Last_Updated",""]]},
+  ADJUSTMENT_REASON:{x:40,  y:530, cols:[["Reason_ID","pk"],["Reason_Type",""],["Description",""]]},
+  STOCK_MOVEMENT:   {x:40,  y:600, cols:[["Movement_ID","pk"],["Inventory_ID","fk"],["Reason_ID","fk"],["Movement_Date",""],["Movement_Type",""],["Quantity",""],["Reference_Type",""],["Reference_ID",""],["Created_By",""]]},
+
+  STOCK_TRANSFER:   {x:520, y:340, cols:[["Transfer_ID","pk"],["Product_ID","fk"],["From_Warehouse_ID","fk"],["To_Warehouse_ID","fk"],["Quantity",""],["Transfer_Date",""]]},
+  DEMAND_HISTORY:   {x:520, y:430, cols:[["Demand_ID","pk"],["Product_ID","fk"],["Warehouse_ID","fk"],["SO_Item_ID","fk"],["Demand_Date",""],["Quantity_Demanded",""],["Quantity_Sold",""],["Demand_Trend",""],["Days_of_Stock",""]]},
+  DEMAND_FORECAST:  {x:520, y:540, cols:[["Forecast_ID","pk"],["Product_ID","fk"],["Warehouse_ID","fk"],["Forecast_Date",""],["Forecast_Period",""],["Forecasted_Quantity",""],["Confidence_Level",""],["Method",""]]},
+  INVENTORY_RISK:   {x:1080,y:400, cols:[["Risk_ID","pk"],["Inventory_ID","fk"],["Detected_Date",""],["Risk_Type",""],["Risk_Level",""],["Risk_Score",""],["Threshold_Value",""],["Status",""],["Recommended_Action",""]]}
+};
+
+const wrap = document.getElementById('wrap');
+const colW = 165;
+
+function buildTable(name, def){
+  const div = document.createElement('div');
+  div.className='table';
+  div.style.left=def.x+'px';
+  div.style.top=def.y+'px';
+  const title=document.createElement('div');
+  title.className='tname';
+  title.textContent=name;
+  div.appendChild(title);
+  const row=document.createElement('div');
+  row.className='row';
+  def.cols.forEach(c=>{
+    const cell=document.createElement('div');
+    cell.className='cell'+(c[1]==='pk'?' pk':'')+(c[1]==='fk'?' fk':'');
+    cell.style.width=colW+'px';
+    cell.textContent=c[0]+(c[1]==='fk'?'(FK)':'');
+    cell.id=name+'__'+c[0];
+    row.appendChild(cell);
+  });
+  div.appendChild(row);
+  wrap.appendChild(div);
+}
+Object.entries(tables).forEach(([n,d])=>buildTable(n,d));
+
+// ---- connections: [fromTable, fromCol, toTable, toCol] ----
+const connections = [
+  ["SALES_ORDER","Customer_ID","CUSTOMER","Customer_ID"],
+  ["SALES_ORDER","Warehouse_ID","WAREHOUSE","Warehouse_ID"],
+  ["SO_ITEM","SO_ID","SALES_ORDER","SO_ID"],
+  ["SO_ITEM","Product_ID","PRODUCT","Product_ID"],
+  ["PRODUCT","Category_ID","CATEGORY","Category_ID"],
+  ["PRODUCT","UOM_ID","UOM","UOM_ID"],
+  ["CATEGORY","Parent_Category_ID","CATEGORY","Category_ID"],
+  ["UOM","Base_UOM_ID","UOM","UOM_ID"],
+  ["SUPPLIER_PRODUCT","Supplier_ID","SUPPLIER","Supplier_ID"],
+  ["SUPPLIER_PRODUCT","Product_ID","PRODUCT","Product_ID"],
+  ["PURCHASE_ORDER","Supplier_ID","SUPPLIER","Supplier_ID"],
+  ["PO_ITEM","PO_ID","PURCHASE_ORDER","PO_ID"],
+  ["PO_ITEM","Product_ID","PRODUCT","Product_ID"],
+  ["INVENTORY","Product_ID","PRODUCT","Product_ID"],
+  ["INVENTORY","Warehouse_ID","WAREHOUSE","Warehouse_ID"],
+  ["STOCK_MOVEMENT","Inventory_ID","INVENTORY","Inventory_ID"],
+  ["STOCK_MOVEMENT","Reason_ID","ADJUSTMENT_REASON","Reason_ID"],
+  ["STOCK_TRANSFER","Product_ID","PRODUCT","Product_ID"],
+  ["STOCK_TRANSFER","From_Warehouse_ID","WAREHOUSE","Warehouse_ID"],
+  ["STOCK_TRANSFER","To_Warehouse_ID","WAREHOUSE","Warehouse_ID"],
+  ["DEMAND_HISTORY","Product_ID","PRODUCT","Product_ID"],
+  ["DEMAND_HISTORY","Warehouse_ID","WAREHOUSE","Warehouse_ID"],
+  ["DEMAND_HISTORY","SO_Item_ID","SO_ITEM","SO_Item_ID"],
+  ["DEMAND_FORECAST","Product_ID","PRODUCT","Product_ID"],
+  ["DEMAND_FORECAST","Warehouse_ID","WAREHOUSE","Warehouse_ID"],
+  ["INVENTORY_RISK","Inventory_ID","INVENTORY","Inventory_ID"]
+];
+
+function drawLines(){
+  const old = document.getElementById('svgOverlay');
+  if(old) old.remove();
+  const svgNS='http://www.w3.org/2000/svg';
+  const svg=document.createElementNS(svgNS,'svg');
+  svg.id='svgOverlay';
+  svg.setAttribute('width', wrap.scrollWidth);
+  svg.setAttribute('height', wrap.scrollHeight);
+  const wrapRect = wrap.getBoundingClientRect();
+  connections.forEach(([ft,fc,tt,tc])=>{
+    const a=document.getElementById(ft+'__'+fc);
+    const b=document.getElementById(tt+'__'+tc);
+    if(!a||!b) return;
+    const ra=a.getBoundingClientRect(), rb=b.getBoundingClientRect();
+    const x1=ra.left-wrapRect.left+ra.width/2, y1=ra.top-wrapRect.top+ra.height;
+    const x2=rb.left-wrapRect.left+rb.width/2, y2=rb.top-wrapRect.top;
+    const midY=(y1+y2)/2;
+    const path=document.createElementNS(svgNS,'path');
+    path.setAttribute('d',`M${x1},${y1} C${x1},${midY} ${x2},${midY} ${x2},${y2}`);
+    path.setAttribute('stroke','#8ab4f8');
+    path.setAttribute('stroke-width','1.2');
+    path.setAttribute('fill','none');
+    path.setAttribute('opacity','0.75');
+    svg.appendChild(path);
+  });
+  wrap.appendChild(svg);
+}
+window.addEventListener('load',drawLines);
+
+document.getElementById('notes').innerHTML =
+ "<b>Fixes applied vs. original ER diagram:</b> (1) STOCK_MOVEMENT → AFFECTS → INVENTORY (was CUSTOMER). " +
+ "(2) DEMAND_HISTORY now sourced from SO_ITEM (via SO_Item_ID FK), not STOCK_MOVEMENT. " +
+ "(3) SALES_ORDER carries a Warehouse_ID FK (FULFILLS). " +
+ "(4) CATEGORY is self-referencing via Parent_Category_ID (and UOM via Base_UOM_ID). " +
+ "(5) Ambiguous relationship names replaced by clear FK-based associations. " +
+ "(6) Every M:N is resolved via an associative entity: SO_ITEM (Sales Order↔Product), PO_ITEM (PO↔Product), SUPPLIER_PRODUCT (Supplier↔Product), STOCK_TRANSFER (Warehouse↔Warehouse↔Product). " +
+ "(7) INVENTORY_RISK, DEMAND_HISTORY, DEMAND_FORECAST, STOCK_TRANSFER retained for the risk/demand analysis core.";
+</script>
+</body>
+</html>
